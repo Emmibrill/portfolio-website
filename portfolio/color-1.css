@@ -1,0 +1,16 @@
+:root{
+    --skin-color: rgb(236, 18, 18);
+    --skin-color-1: navy;
+    --border-color: rgb(236, 18, 18);
+    --outline-color-focus: red;
+    --textBox-border: #000000;
+    --textBox-focus: red;
+}
+body.dark{
+    --skin-color: rgb(236, 18, 18);
+    --skin-color-1: navy;
+    --border-color: rgb(236, 18, 18);
+    --outline-color-focus: red;
+    --textBox-border: #ffffff;
+    --textBox-focus: red;
+}

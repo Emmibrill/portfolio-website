@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <!--css files-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="color-1.css">
+    <link rel="stylesheet" href="color-1.css" class="alternate-style"  title="color-1 color" disabled>
+    <link rel="stylesheet" href="color-2.css" class="alternate-style"  title="color-2 color" disabled>
+    <link rel="stylesheet" href="color-3.css" class="alternate-style"  title="color-3 color" disabled>
+    <link rel="stylesheet" href="color-4.css" class="alternate-style"  title="color-4 color" disabled>
+    <link rel="stylesheet" href="color-5.css" class="alternate-style"  title="color-5 color" disabled>
+
+</head>
+<body>
+    <!---main container starts-->
+    <div class="main-container">
+        <div class="nav-toggle-pane"> 
+            <div class="nav-toggle">
+                <span></span>
+            </div>
+            <div class="closeNav"><i class="fa-solid fa-xmark"></i></div>
+        </div>
+        <!---Aside starts-->
+        <div class="aside">
+            <div class="logo">
+                <a href="#"><span>E</span>mmibrill</a>
+            </div>
+            
+            <ul class="nav">
+                <li><a id="navlist" class="active" href="#home"><i class="fa-solid fa-house-user"></i>Home</a></li>
+                <li><a id="navlist" href="#About"><i class="fa-solid fa-image-portrait"></i>About</a></li>
+                <li><a id="navlist" href="#Services"><i class="fa-brands fa-servicestack"></i>Services</a></li>
+                <li><a id="navlist" href="#portfolio"><i class="fa-solid fa-boxes-stacked"></i>Portfolio</a></li>
+                <li><a id="navlist" href="#contact"><i class="fa-solid fa-phone-volume"></i>Contact</a></li>
+            </ul>
+
+        </div>
+        <!---Aside ends-->
+
+        <!---main content starts-->
+        <div class="main-content">
+            <!---home section starts-->
+            <section class="home-section hidden" id="home">
+                <div class="container">
+                    <div class="row">
+                        <div class="home-info padd-15">
+                            <h3 class="hello">Hello, <span class="name">It's Emmibrill Udo</span></h3>
+                            <h3 class="profession">I'm a (an) <span class="auto-type"></span></h3>
+                            <p>I'm a Frontend Web Developer. I design and create web pages, landing page designs,
+                                 nice and interactive website interface
+                            </p>
+                            <a target="_blank" href="https://wa.me/+2348124467721" class="button">Lets talk</a>
+                        </div>
+                        <div class="home-image padd-15">
+                            <img src="IMG_2705.jpeg" alt="my picture">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!---home section ends-->
+            <!---about section begins-->
+            <section class="about-section hidden" id="About">
+                <div class="container">
+                    <div class="row">
+                        <div class="about-title ">
+                            <h3>About me</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="about-content padd-15">
+                        <div class="row">
+                            <div class="about-text padd-15">
+                                <h3>Hi, I'm  <span>Emmanuel Okokon Udo</span></h3>
+                                <p>A Final Year Civil Engineering Student of the University of Nigeria, Nsukka, 
+                                    a native of Akwa Ibom State, Itu Local Government Area. I'm a fitness enthusiat and 
+                                    also a fitness Coach. I beleive in personal development as it is a prerequisite 
+                                    to getting ready to face life's challenges when they surface.
+                                    A United People Global Sustainability Leader and an FAA Scholar</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="personal-infom padd-15">
+                                <div class="row">
+                                    <div class="info-items">
+                                        <p>Gender: <span>Male</span></p>
+                                    </div>
+                                    <div class="info-items">
+                                        <p>Height: <span>5"7'</span></p>
+                                    </div>
+                                    <div class="info-items">
+                                        <p>Birthday: <span>2<sup>nd</sup> July</span></p>
+                                    </div>
+                                    <div class="info-items">
+                                        <p>Occupation: <span>Student</span></p>
+                                    </div>
+                                    <div class="info-items">
+                                        <p>Email Address: <span>ubryliant@gmail.com</span></p>
+                                    </div>
+                                    <div class="info-items">
+                                        <p>WhatsApp: <span>+234 812 4467 721</span></p>
+                                    </div>
+                                    <div class="info-items">
+                                        <p>City: <span>Enugu</span></p>
+                                    </div>
+                                    <div class="info-items">
+                                        <p>Nationality: <span>Nigerian</span></p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="buttons">
+                                        <a href="#" class="button btttn">Download CV</a>
+                                        <a href="#Contact" class="button btttn">Contact me</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skills padd-15">
+                                <div class="row">
+                                    <div class="skill-items">
+                                        <h5>HTML</h5>
+                                        <div class="progress">
+                                            <div class="progress-in" style="width: 60%;"></div>
+                                            <div class="progress-percent">60%</div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-items">
+                                        <h5>CSS</h5>
+                                        <div class="progress">
+                                            <div class="progress-in" style="width: 55%;"></div>
+                                            <div class="progress-percent">55%</div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-items">
+                                        <h5>Bootstrap</h5>
+                                        <div class="progress">
+                                            <div class="progress-in" style="width: 20%;"></div>
+                                            <div class="progress-percent">20%</div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-items">
+                                        <h5>JS</h5>
+                                        <div class="progress">
+                                            <div class="progress-in" style="width: 30%;"></div>
+                                            <div class="progress-percent">30%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="education">
+                        <h3 class="title">Education/Training</h3>
+                        <div class="row">
+                            <div class="education-box">
+                                <div class="box-container boxshadow">
+                                    <div class="education-time-line">
+                                        <div class="section-box">
+                                            <div class="circle-mark"></div>
+                                            <div class="linemark"></div>
+                                            <h3 class="date">
+                                                <img src="icon-arrow.svg" alt="">2022
+                                            </h3>
+                                            <h4 class="title">United People Global Sustainability Leader(UPGL)</h4>
+                                            <p class="education-details">
+                                            United People Global<br/>
+                                                <a href="https://unitedpeople.global" target="_blank">unitedpeople.global</a>
+                                            </p>
+                                        </div><br/>
+                                    </div>
+                                    <div class="education-time-line">
+                                        <div class="section-box">
+                                            <div class="circle-mark"></div>
+                                            <div class="linemark"></div>
+                                            <h3 class="date">
+                                                <img src="icon-arrow.svg" alt="">2016-2021
+                                            </h3>
+                                            <h4 class="title">Bachelor of Engineering(B.Eng)</h4>
+                                            <p class="education-details">
+                                            Bachelor of Engineering (in view), University of Nigeria, Nsukka<br/>
+                                                <a href="https://www.unn.edu.ng" target="_blank">www.unn.edu.ng</a>
+                                            </p>
+                                        </div><br/>
+                                    </div>
+                                    <div class="education-time-line">
+                                        <div class="section-box">
+                                            <div class="circle-mark"></div>
+                                            <div class="linemark"></div>
+                                            <h3 class="date">
+                                                <img src="icon-arrow.svg" alt="">2012-2015
+                                            </h3>
+                                            <h4 class="title">National Diploma in Civil Engineering</h4>
+                                            <p class="education-details">
+                                            Akwa Ibom State Polytechnic, Ikot Osurua<br/>
+                                                <a href="https://akwaibompoly.edu.ng" target="_blank">www.akwaibompoly.edu.ng</a>
+                                            </p>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="education">
+                        <h3 class="title">Experience</h3>
+                        <div class="row">
+                            <div class="education-box">
+                                <div class="box-container boxshadow ">
+                                    <!--experience starts-->
+                                    <div class="education-time-line">
+                                        <div class="section-box">
+                                            <div class="circle-mark"></div>
+                                            <div class="linemark"></div>
+                                            <h3 class="date bottom">
+                                                <img src="icon-arrow.svg" alt="">2020-2021
+                                            </h3>
+                                         <h4 class="title">Intern</h4>
+                                            <p class="education-details down">
+                                            Viagem Property and Investment Limited<br/>
+                                            </p>
+                                        </div><br/>
+                                    </div>
+                                    <div class="education-time-line">
+                                        <div class="section-box">
+                                            <div class="circle-mark"></div>
+                                            <div class="linemark"></div>
+                                            <h3 class="date bottom">
+                                                <img src="icon-arrow.svg" alt="">2015-2016
+                                            </h3>
+                                            <h4 class="title">Intern</h4>
+                                            <p class="education-details down">
+                                            Ministry of Works & Transport, Uyo<br/>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!--experience stops-->
+                                </div><br/>
+                                <h3 class="training">Training</h3><br/>
+                                <div class="box-container boxshadow">
+                                    <!--training starts-->
+                                    <div class="education-time-line">
+                                        <div class="section-box">
+                                            <div class="circle-mark"></div>
+                                            <div class="linemark"></div>
+                                            <h3 class="date bottom">
+                                                <img src="icon-arrow.svg" alt="">2022-2023
+                                            </h3>
+                                            <h4 class="title">Frontend Development</h4>
+                                            <p class="education-details down">
+                                            ALX Software Engineering Programme<br/>
+                                            </p>
+                                        </div><br/>
+                                    </div>
+                                    <div class="education-time-line">
+                                        <div class="section-box">
+                                            <div class="circle-mark"></div>
+                                            <div class="linemark"></div>
+                                            <h3 class="date bottom">
+                                                <img src="icon-arrow.svg" alt="">2022
+                                            </h3>
+                                            <h4 class="title">Frontend Development</h4>
+                                            <p class="education-details down">
+                                            Future Academy Africa
+                                            <a href="https://futureacademy.africa" target="_blank">futureacademy.africa</a>
+                                            <br/>
+                                            </p>
+                                        </div><br/>
+                                    </div>
+                                    <div class="education-time-line">
+                                        <div class="section-box">
+                                            <div class="circle-mark"></div>
+                                            <div class="linemark"></div>
+                                            <h3 class="date bottom">
+                                                <img src="icon-arrow.svg" alt="">2022
+                                            </h3>
+                                            <h4 class="title">UPG Sustainability Leader(Class of 2022)</h4>
+                                            <p class="education-details down">
+                                            United People Global <br/>
+                                            <a href="https://unitedpeople.global" target="_blank">unitedpeople.global.com</a>
+                                        </p>
+                                        </div>
+                                        
+                                    </div>
+                                    <!--training stops-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--about section ends-->
+
+            <!--service section starts-->
+            <section class="service-section" id="Services">
+                <div class="container">
+                    <div class="row service">
+                        <div class="about-title ">
+                            <h3>Services</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row1">
+                    <div class="service-container">
+                        <div class="box">
+                            <div class="icon">
+                                <i class="fa-solid fa-dumbbell"></i>
+                            </div>
+                            <h3>fitness training</h3>
+                            <p>Keeping fit is one one amongst the important things to do in life. Keep fit with us as we render a wonderful service</p>
+                            <button class="button btn1"><a href="#">read more</a></button>
+                        </div>
+                    </div>
+                    <div class="service-container">
+                        <div class="box">
+                            <div class="icon">
+                                <i class="fa-solid fa-cubes-stacked"></i>
+                            </div>
+                            <h3>web development</h3>
+                            <p>Design and Develop responsive website, landing pages, web applications with user friendly functionality </p>
+                            <button class="button btn1"><a href="#">read more</a></button>
+                        </div>
+                    </div>
+                    <div class="service-container">
+                        <div class="box">
+                            <div class="icon">
+                                <i class="fa-brands fa-slack"></i>
+                            </div>
+                            <h3>graphics designs</h3>
+                            <p>Cool desings wih edge cutting graphics, style and originality according to your taste</p>
+                            <button class="button btn1"><a href="#">read more</a></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--service section ends-->
+            <section class="portfolio-section">
+                <div class="portfolio-title">
+                    <div class="my-recent-work">
+                        <h3>My recent Works</h3>
+                    </div>
+                </div>
+                <div class="portfolio-grid" id="portfolio">
+                    <div class="portfolio-content">
+                        <div class="portfolio-works">
+                            <img class="Tipwork" src="TipCalculator.png" alt="">
+                        </div>
+                        <div class="portfolio__description">
+                            <div class="closeDetails">
+                                <span></span>
+                            </div>
+                            <h3>Shared Tip Calculator</h3>
+                            <p>The tip calculator calculates the tip amount for various
+                                percentage of the cost of service 
+                                and also provides a total amount that includes the tip. It is mobile responsive
+                                <a class="view" target="_blank" href="https://emmibrill.github.io/Tip-calculator-challange/" alt="Tip Calculator">Click to view</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-content fintnessContent">
+                        <div class="portfolio-works">
+                            <img class="Fitnesswork" src="fitnessPage.png" alt="fitness page">
+                        </div>
+                        <div class="portfolio__description" id="descrip">
+                            <div class="closeDetails" id="collapse">
+                                <span></span>
+                            </div>
+                            <h3>A fitness training site</h3>
+                            <p>An HTML and CSS home page that includes a photo gallery for a fitness website, 
+                                not mobile responsive
+                                                              
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-content">
+                        <div class="portfolio-works">
+                            <a href="https://bookmarklander.netlify.app"><img class="bookmark" src="Bookmark.png" alt="bookmark image"></a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-content">
+                        <div class="portfolio-works">
+                            <a href="https://tourspc.netlify.app"><img class="tourspc" src="tourspc.png" alt="tourspc image"></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-works">
+                            <img class="Calculator" src="Calculator.png" alt="calculator image">
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-works">
+                            <img class="papperScissors" src="papper-scissors.png" alt="papper-scissors image">
+                        </div>
+                    </div>
+
+                    
+            
+                </div>
+               
+                
+            </section>
+            <section class="contact__section" id="contact">
+                <h3 class="contact__me">contact me</h3>
+                <div class="contact__content">
+                    <div class="contact__details">
+                        <div class="social__media-content facebook">
+                            <div class="social__icon-image">
+                                <i class="fa-brands fa-facebook social"></i>
+                            </div>
+                            <div class="social__details">
+                                <h3 class="social__heading">Connect with me on facebook</h3>
+                                <p class="details"><a href=""><span class="click__me">click me </span></a></p>
+                            </div>
+                        </div>
+                        <div class="social__media-content instagram">
+                            <div class="social__icon-image">
+                                <i class="fa-brands fa-instagram social"></i>
+                            </div>
+                            <div class="social__details">
+                                <h3 class="social__heading">Connect with me on instagram</h3>
+                                <p class="details"><a href=""><span class="click__me">click me </span></a></p>
+                            </div>
+                        </div>
+                        <div class="social__media-content">
+                            <div class="social__icon-image">
+                                <i class="fa-brands fa-twitter social"></i>
+                            </div>
+                            <div class="social__details">
+                                <h3 class="social__heading">Connect with me on twitter</h3>
+                                <p class="details"><a href=""><span class="click__me">click me </span></a></p>
+                            </div>
+                        </div>
+                        <div class="social__media-content">
+                            <div class="social__icon-image">
+                                <i class="fa-brands fa-linkedin social"></i>
+                            </div>
+                            <div class="social__details">
+                                <h3 class="social__heading">Connect with me on Linkedin</h3>
+                                <p class="details"><a href=""><span class="click__me">click me </span></a></p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <form action="https://formspree.io/f/moqblvez" method="post" class="contact__form" id="contact">
+                        <h3 class="shadow">send me a Message</h3>
+                        <div class="contact__head">
+                            <input type="text" class="input" name="name" id="name">
+                            <label class="label" for="name">Name</label>
+                            <span class="contact__label">Name</span>
+                        </div>
+
+                        <div class="contact__head">
+                            <input type="email" class="input" name="email" id="email">
+                            <label class="label" for="email">Email</label>
+                            <span class="contact__label">Email</span>
+                        </div>
+
+                        <div class="contact__head">
+                            <input type="tel" class="input" name="number" id="number">
+                            <label class="label" for="number">Phone</label>
+                            <span class="contact__label">Phone</span>
+                        </div>
+
+                        <div class="contact__head">
+                            <textarea class="input" name="message" id="message" ></textarea>
+                            <label class="label" for="message">Message</label>
+                            <span class="contact__label">Message</span>
+                        </div>
+                        
+                        <button  class="submitform">submit</button>
+                        
+
+                    </form>
+                </div>
+            </section>
+
+        </div>
+        <!---main content ends-->
+    </div>
+    <!---main container ends-->
+    <div class="mode-style-toggler">
+        <h3 class="theme-colours">theme colours</h3>
+        <div class="icons spinner">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+        <div class="daylight">
+            <i class="fa-solid"></i>
+        </div>
+        <div class="style-toggler" id="style__toggler">
+            <span class="color-1 color" ></span>
+            <span class="color-2 color" ></span>
+            <span class="color-3 color" ></span>
+            <span class="color-4 color" ></span>
+            <span class="color-5 color" ></span>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

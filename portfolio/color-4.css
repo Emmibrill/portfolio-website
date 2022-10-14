@@ -1,0 +1,16 @@
+:root{
+    --skin-color: #1e8344;
+    --skin-color-1: navy;
+    --border-color: #1e8344;
+    --outline-color-focus: #1e8334;
+    --textBox-border: #000000;
+    --textBox-focus: #1e8344;
+}
+body.dark{
+    --skin-color: #1e8344;
+    --skin-color-1: navy;
+    --border-color: #1e8344;
+    --outline-color-focus: #1e8334;
+    --textBox-border: #ffffff;
+    --textBox-focus:  #1e8344;
+}
